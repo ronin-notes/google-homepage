@@ -1,0 +1,1 @@
+This is the first project I do throughout "The Odin Project" and it should reflect on what I have learned about using HTML and CSS in the freecodecamp program. 
