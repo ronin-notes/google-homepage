@@ -8,26 +8,42 @@
     <link href="styles/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <main>
-        <div>
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-bar">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </ul>
+            <ul class="nav-bar">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <img alt="google-apps" src="images/app.png" id="app">
+            </ul>
+        </nav>
+        <main class="main">
             <img alt="google-logo" src="images/logo.png">
-            <img alt="voice-search" src="images/voice.png">
-        </div>
-        <form>
-            <input type="text" id="search" name="search">
-            <input type="button" id="google_search" name="google_search">
-            <input type="button" id="lucky" name="lucky">
-        </form>
-    </main>
-    <footer>
-        <div>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search Works</a>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
-        </div>
-    </footer>
+            <div class="search-bar">
+                <img alt="search" src="images/search.png" class="lens">
+                <input type="search">
+                <img alt="voice-search" src="images/voice.png" class="voice">
+            </div> 
+            <div class="buttons">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+        </main>
+        <footer class="footer">
+            <ul class="footer-left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </ul>
+            <ul class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>
